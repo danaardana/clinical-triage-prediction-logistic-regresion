@@ -1,0 +1,60 @@
+{
+  "input": "data/dataset_original.parquet",
+  "split": "stratified approximate 80:20 using randomSplit per class",
+  "seed": 42,
+  "target": "esi",
+  "output_partitions": 32,
+  "preprocessing_performed": false,
+  "duplicate_removal_performed": false,
+  "feature_missing_values_removed": false,
+  "rows": {
+    "input": 560486,
+    "train": 446403,
+    "test": 111626,
+    "discarded_invalid_or_missing_target": 2457
+  },
+  "train_distribution": [
+    {
+      "esi": 1,
+      "count": 4262
+    },
+    {
+      "esi": 2,
+      "count": 130717
+    },
+    {
+      "esi": 3,
+      "count": 189126
+    },
+    {
+      "esi": 4,
+      "count": 100007
+    },
+    {
+      "esi": 5,
+      "count": 22291
+    }
+  ],
+  "test_distribution": [
+    {
+      "esi": 1,
+      "count": 1009
+    },
+    {
+      "esi": 2,
+      "count": 32817
+    },
+    {
+      "esi": 3,
+      "count": 47103
+    },
+    {
+      "esi": 4,
+      "count": 24996
+    },
+    {
+      "esi": 5,
+      "count": 5701
+    }
+  ]
+}

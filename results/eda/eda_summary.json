@@ -1,0 +1,2609 @@
+{
+  "dataset": {
+    "input": "data/processed/hong_triage.parquet",
+    "rows": 560486,
+    "columns": 972
+  },
+  "target_esi": {
+    "invalid_or_missing": 2457,
+    "distribution": [
+      {
+        "_esi": 1.0,
+        "count": 5271
+      },
+      {
+        "_esi": 2.0,
+        "count": 163534
+      },
+      {
+        "_esi": 3.0,
+        "count": 236229
+      },
+      {
+        "_esi": 4.0,
+        "count": 125003
+      },
+      {
+        "_esi": 5.0,
+        "count": 27992
+      }
+    ]
+  },
+  "missing_values": {
+    "total_missing_cells": 161875061,
+    "by_column": [
+      {
+        "feature": "esi",
+        "count": 2457
+      },
+      {
+        "feature": "age",
+        "count": 11
+      },
+      {
+        "feature": "race",
+        "count": 26
+      },
+      {
+        "feature": "arrivalmode",
+        "count": 21884
+      },
+      {
+        "feature": "absolutelymphocytecount_last",
+        "count": 342560
+      },
+      {
+        "feature": "acetonebld_last",
+        "count": 560090
+      },
+      {
+        "feature": "alanineaminotransferase(alt)_last",
+        "count": 434832
+      },
+      {
+        "feature": "albumin_last",
+        "count": 448952
+      },
+      {
+        "feature": "alkphos_last",
+        "count": 433755
+      },
+      {
+        "feature": "anc(absneutrophilcount)_last",
+        "count": 340278
+      },
+      {
+        "feature": "aniongap_last",
+        "count": 348985
+      },
+      {
+        "feature": "aspartateaminotransferase(ast)_last",
+        "count": 437527
+      },
+      {
+        "feature": "b-typenatriureticpeptide,pro(probnp)_last",
+        "count": 549577
+      },
+      {
+        "feature": "baseexcess(poc)_last",
+        "count": 519337
+      },
+      {
+        "feature": "baseexcess,venous(poc)_last",
+        "count": 544752
+      },
+      {
+        "feature": "basos_last",
+        "count": 340264
+      },
+      {
+        "feature": "basosabs_last",
+        "count": 513915
+      },
+      {
+        "feature": "benzodiazepinesscreen,urine,noconf._last",
+        "count": 560485
+      },
+      {
+        "feature": "bilirubindirect_last",
+        "count": 505193
+      },
+      {
+        "feature": "bilirubintotal_last",
+        "count": 434647
+      },
+      {
+        "feature": "bun_last",
+        "count": 347614
+      },
+      {
+        "feature": "bun/creatratio_last",
+        "count": 393885
+      },
+      {
+        "feature": "calcium_last",
+        "count": 346287
+      },
+      {
+        "feature": "calculatedco2(poc)_last",
+        "count": 515093
+      },
+      {
+        "feature": "calculatedhco3(poc)i_last",
+        "count": 521492
+      },
+      {
+        "feature": "calculatedo2saturation(poc)_last",
+        "count": 519388
+      },
+      {
+        "feature": "chloride_last",
+        "count": 347535
+      },
+      {
+        "feature": "cktotal_last",
+        "count": 548194
+      },
+      {
+        "feature": "co2_last",
+        "count": 347665
+      },
+      {
+        "feature": "co2calculated,venous(poc)_last",
+        "count": 544784
+      },
+      {
+        "feature": "co2,poc_last",
+        "count": 509235
+      },
+      {
+        "feature": "creatinine_last",
+        "count": 347595
+      },
+      {
+        "feature": "d-dimer_last",
+        "count": 550898
+      },
+      {
+        "feature": "egfr_last",
+        "count": 551972
+      },
+      {
+        "feature": "egfr(nonafricanamerican)_last",
+        "count": 520761
+      },
+      {
+        "feature": "egfr(aframer)_last",
+        "count": 532721
+      },
+      {
+        "feature": "eos_last",
+        "count": 340260
+      },
+      {
+        "feature": "eosinoabs_last",
+        "count": 515166
+      },
+      {
+        "feature": "epithelialcells_last",
+        "count": 560478
+      },
+      {
+        "feature": "globulin_last",
+        "count": 450561
+      },
+      {
+        "feature": "glucose_last",
+        "count": 347771
+      },
+      {
+        "feature": "glucose,meter_last",
+        "count": 518853
+      },
+      {
+        "feature": "hco3calculated,venous(poc)_last",
+        "count": 544743
+      },
+      {
+        "feature": "hematocrit_last",
+        "count": 337594
+      },
+      {
+        "feature": "hemoglobin_last",
+        "count": 337671
+      },
+      {
+        "feature": "immaturegrans(abs)_last",
+        "count": 517251
+      },
+      {
+        "feature": "immaturegranulocytes_last",
+        "count": 517238
+      },
+      {
+        "feature": "inr_last",
+        "count": 482058
+      },
+      {
+        "feature": "lactate,poc_last",
+        "count": 503550
+      },
+      {
+        "feature": "lipase_last",
+        "count": 494606
+      },
+      {
+        "feature": "lymphs_last",
+        "count": 340080
+      },
+      {
+        "feature": "magnesium_last",
+        "count": 510479
+      },
+      {
+        "feature": "mch_last",
+        "count": 336448
+      },
+      {
+        "feature": "mchc_last",
+        "count": 336447
+      },
+      {
+        "feature": "mcv_last",
+        "count": 336354
+      },
+      {
+        "feature": "monocytes_last",
+        "count": 339000
+      },
+      {
+        "feature": "monosabs_last",
+        "count": 516001
+      },
+      {
+        "feature": "mpv_last",
+        "count": 337013
+      },
+      {
+        "feature": "neutrophils_last",
+        "count": 338829
+      },
+      {
+        "feature": "nrbc_last",
+        "count": 513825
+      },
+      {
+        "feature": "nrbcabsolute_last",
+        "count": 514994
+      },
+      {
+        "feature": "o2satcalculated,venous(poc)_last",
+        "count": 544777
+      },
+      {
+        "feature": "pco2(poc)_last",
+        "count": 519329
+      },
+      {
+        "feature": "pco2,venous(poc)_last",
+        "count": 544743
+      },
+      {
+        "feature": "ph,venous(poc)_last",
+        "count": 544741
+      },
+      {
+        "feature": "phencyclidine(pcp)screen,urine,noconf._last",
+        "count": 560486
+      },
+      {
+        "feature": "phosphorus_last",
+        "count": 520649
+      },
+      {
+        "feature": "platelets_last",
+        "count": 336463
+      },
+      {
+        "feature": "po2(poc)_last",
+        "count": 519366
+      },
+      {
+        "feature": "po2,venous(poc)_last",
+        "count": 544758
+      },
+      {
+        "feature": "pocbun_last",
+        "count": 503211
+      },
+      {
+        "feature": "poccreatinine_last",
+        "count": 503157
+      },
+      {
+        "feature": "pocglucose_last",
+        "count": 477069
+      },
+      {
+        "feature": "pochematocrit_last",
+        "count": 503072
+      },
+      {
+        "feature": "pocionizedcalcium_last",
+        "count": 503095
+      },
+      {
+        "feature": "pocph_last",
+        "count": 515743
+      },
+      {
+        "feature": "pocpotassium_last",
+        "count": 503200
+      },
+      {
+        "feature": "pocsodium_last",
+        "count": 503051
+      },
+      {
+        "feature": "poctroponini._last",
+        "count": 559561
+      },
+      {
+        "feature": "potassium_last",
+        "count": 351501
+      },
+      {
+        "feature": "proteintotal_last",
+        "count": 451534
+      },
+      {
+        "feature": "prothrombintime_last",
+        "count": 482132
+      },
+      {
+        "feature": "ptt_last",
+        "count": 510725
+      },
+      {
+        "feature": "rbc_last",
+        "count": 336398
+      },
+      {
+        "feature": "rbc/hpf_last",
+        "count": 515457
+      },
+      {
+        "feature": "rdw_last",
+        "count": 336369
+      },
+      {
+        "feature": "sodium_last",
+        "count": 347541
+      },
+      {
+        "feature": "troponini(poc)_last",
+        "count": 493890
+      },
+      {
+        "feature": "troponint_last",
+        "count": 546941
+      },
+      {
+        "feature": "tsh_last",
+        "count": 542839
+      },
+      {
+        "feature": "wbc_last",
+        "count": 336329
+      },
+      {
+        "feature": "wbc/hpf_last",
+        "count": 514510
+      },
+      {
+        "feature": "absolutelymphocytecount_min",
+        "count": 314206
+      },
+      {
+        "feature": "acetonebld_min",
+        "count": 558204
+      },
+      {
+        "feature": "alanineaminotransferase(alt)_min",
+        "count": 374812
+      },
+      {
+        "feature": "albumin_min",
+        "count": 386156
+      },
+      {
+        "feature": "alkphos_min",
+        "count": 373785
+      },
+      {
+        "feature": "anc(absneutrophilcount)_min",
+        "count": 312895
+      },
+      {
+        "feature": "aniongap_min",
+        "count": 317023
+      },
+      {
+        "feature": "aspartateaminotransferase(ast)_min",
+        "count": 376695
+      },
+      {
+        "feature": "b-typenatriureticpeptide,pro(probnp)_min",
+        "count": 533301
+      },
+      {
+        "feature": "baseexcess(poc)_min",
+        "count": 469545
+      },
+      {
+        "feature": "baseexcess,venous(poc)_min",
+        "count": 535453
+      },
+      {
+        "feature": "basos_min",
+        "count": 312977
+      },
+      {
+        "feature": "basosabs_min",
+        "count": 508920
+      },
+      {
+        "feature": "benzodiazepinesscreen,urine,noconf._min",
+        "count": 560472
+      },
+      {
+        "feature": "bilirubindirect_min",
+        "count": 442221
+      },
+      {
+        "feature": "bilirubintotal_min",
+        "count": 374674
+      },
+      {
+        "feature": "bun_min",
+        "count": 316149
+      },
+      {
+        "feature": "bun/creatratio_min",
+        "count": 349609
+      },
+      {
+        "feature": "calcium_min",
+        "count": 315517
+      },
+      {
+        "feature": "calculatedco2(poc)_min",
+        "count": 460173
+      },
+      {
+        "feature": "calculatedhco3(poc)i_min",
+        "count": 475916
+      },
+      {
+        "feature": "calculatedo2saturation(poc)_min",
+        "count": 469619
+      },
+      {
+        "feature": "chloride_min",
+        "count": 316087
+      },
+      {
+        "feature": "cktotal_min",
+        "count": 520144
+      },
+      {
+        "feature": "co2_min",
+        "count": 316140
+      },
+      {
+        "feature": "co2calculated,venous(poc)_min",
+        "count": 535474
+      },
+      {
+        "feature": "co2,poc_min",
+        "count": 455094
+      },
+      {
+        "feature": "creatinine_min",
+        "count": 316142
+      },
+      {
+        "feature": "d-dimer_min",
+        "count": 533949
+      },
+      {
+        "feature": "egfr_min",
+        "count": 542743
+      },
+      {
+        "feature": "egfr(nonafricanamerican)_min",
+        "count": 502211
+      },
+      {
+        "feature": "egfr(aframer)_min",
+        "count": 519081
+      },
+      {
+        "feature": "eos_min",
+        "count": 312976
+      },
+      {
+        "feature": "eosinoabs_min",
+        "count": 510563
+      },
+      {
+        "feature": "epithelialcells_min",
+        "count": 560455
+      },
+      {
+        "feature": "globulin_min",
+        "count": 387564
+      },
+      {
+        "feature": "glucose_min",
+        "count": 316232
+      },
+      {
+        "feature": "glucose,meter_min",
+        "count": 480818
+      },
+      {
+        "feature": "hco3calculated,venous(poc)_min",
+        "count": 535448
+      },
+      {
+        "feature": "hematocrit_min",
+        "count": 311512
+      },
+      {
+        "feature": "hemoglobin_min",
+        "count": 311556
+      },
+      {
+        "feature": "immaturegrans(abs)_min",
+        "count": 511881
+      },
+      {
+        "feature": "immaturegranulocytes_min",
+        "count": 511867
+      },
+      {
+        "feature": "inr_min",
+        "count": 422749
+      },
+      {
+        "feature": "lactate,poc_min",
+        "count": 453325
+      },
+      {
+        "feature": "lipase_min",
+        "count": 438744
+      },
+      {
+        "feature": "lymphs_min",
+        "count": 312873
+      },
+      {
+        "feature": "magnesium_min",
+        "count": 451001
+      },
+      {
+        "feature": "mch_min",
+        "count": 310703
+      },
+      {
+        "feature": "mchc_min",
+        "count": 310702
+      },
+      {
+        "feature": "mcv_min",
+        "count": 310650
+      },
+      {
+        "feature": "monocytes_min",
+        "count": 312117
+      },
+      {
+        "feature": "monosabs_min",
+        "count": 510241
+      },
+      {
+        "feature": "mpv_min",
+        "count": 310869
+      },
+      {
+        "feature": "neutrophils_min",
+        "count": 312019
+      },
+      {
+        "feature": "nrbc_min",
+        "count": 507280
+      },
+      {
+        "feature": "nrbcabsolute_min",
+        "count": 510448
+      },
+      {
+        "feature": "o2satcalculated,venous(poc)_min",
+        "count": 535469
+      },
+      {
+        "feature": "pco2(poc)_min",
+        "count": 469538
+      },
+      {
+        "feature": "pco2,venous(poc)_min",
+        "count": 535448
+      },
+      {
+        "feature": "ph,venous(poc)_min",
+        "count": 535447
+      },
+      {
+        "feature": "phencyclidine(pcp)screen,urine,noconf._min",
+        "count": 560486
+      },
+      {
+        "feature": "phosphorus_min",
+        "count": 465476
+      },
+      {
+        "feature": "platelets_min",
+        "count": 310689
+      },
+      {
+        "feature": "po2(poc)_min",
+        "count": 469585
+      },
+      {
+        "feature": "po2,venous(poc)_min",
+        "count": 535451
+      },
+      {
+        "feature": "pocbun_min",
+        "count": 441625
+      },
+      {
+        "feature": "poccreatinine_min",
+        "count": 441540
+      },
+      {
+        "feature": "pocglucose_min",
+        "count": 417326
+      },
+      {
+        "feature": "pochematocrit_min",
+        "count": 441427
+      },
+      {
+        "feature": "pocionizedcalcium_min",
+        "count": 441462
+      },
+      {
+        "feature": "pocph_min",
+        "count": 460787
+      },
+      {
+        "feature": "pocpotassium_min",
+        "count": 441543
+      },
+      {
+        "feature": "pocsodium_min",
+        "count": 441402
+      },
+      {
+        "feature": "poctroponini._min",
+        "count": 556061
+      },
+      {
+        "feature": "potassium_min",
+        "count": 318019
+      },
+      {
+        "feature": "proteintotal_min",
+        "count": 388553
+      },
+      {
+        "feature": "prothrombintime_min",
+        "count": 422812
+      },
+      {
+        "feature": "ptt_min",
+        "count": 454341
+      },
+      {
+        "feature": "rbc_min",
+        "count": 310677
+      },
+      {
+        "feature": "rbc/hpf_min",
+        "count": 471115
+      },
+      {
+        "feature": "rdw_min",
+        "count": 310652
+      },
+      {
+        "feature": "sodium_min",
+        "count": 316091
+      },
+      {
+        "feature": "troponini(poc)_min",
+        "count": 444106
+      },
+      {
+        "feature": "troponint_min",
+        "count": 518225
+      },
+      {
+        "feature": "tsh_min",
+        "count": 514468
+      },
+      {
+        "feature": "wbc_min",
+        "count": 310641
+      },
+      {
+        "feature": "wbc/hpf_min",
+        "count": 470015
+      },
+      {
+        "feature": "absolutelymphocytecount_max",
+        "count": 314206
+      },
+      {
+        "feature": "acetonebld_max",
+        "count": 558204
+      },
+      {
+        "feature": "alanineaminotransferase(alt)_max",
+        "count": 374812
+      },
+      {
+        "feature": "albumin_max",
+        "count": 386156
+      },
+      {
+        "feature": "alkphos_max",
+        "count": 373785
+      },
+      {
+        "feature": "anc(absneutrophilcount)_max",
+        "count": 312895
+      },
+      {
+        "feature": "aniongap_max",
+        "count": 317023
+      },
+      {
+        "feature": "aspartateaminotransferase(ast)_max",
+        "count": 376695
+      },
+      {
+        "feature": "b-typenatriureticpeptide,pro(probnp)_max",
+        "count": 533301
+      },
+      {
+        "feature": "baseexcess(poc)_max",
+        "count": 469545
+      },
+      {
+        "feature": "baseexcess,venous(poc)_max",
+        "count": 535453
+      },
+      {
+        "feature": "basos_max",
+        "count": 312977
+      },
+      {
+        "feature": "basosabs_max",
+        "count": 508920
+      },
+      {
+        "feature": "benzodiazepinesscreen,urine,noconf._max",
+        "count": 560472
+      },
+      {
+        "feature": "bilirubindirect_max",
+        "count": 442221
+      },
+      {
+        "feature": "bilirubintotal_max",
+        "count": 374674
+      },
+      {
+        "feature": "bun_max",
+        "count": 316149
+      },
+      {
+        "feature": "bun/creatratio_max",
+        "count": 349609
+      },
+      {
+        "feature": "calcium_max",
+        "count": 315517
+      },
+      {
+        "feature": "calculatedco2(poc)_max",
+        "count": 460173
+      },
+      {
+        "feature": "calculatedhco3(poc)i_max",
+        "count": 475916
+      },
+      {
+        "feature": "calculatedo2saturation(poc)_max",
+        "count": 469619
+      },
+      {
+        "feature": "chloride_max",
+        "count": 316087
+      },
+      {
+        "feature": "cktotal_max",
+        "count": 520144
+      },
+      {
+        "feature": "co2_max",
+        "count": 316140
+      },
+      {
+        "feature": "co2calculated,venous(poc)_max",
+        "count": 535474
+      },
+      {
+        "feature": "co2,poc_max",
+        "count": 455094
+      },
+      {
+        "feature": "creatinine_max",
+        "count": 316142
+      },
+      {
+        "feature": "d-dimer_max",
+        "count": 533949
+      },
+      {
+        "feature": "egfr_max",
+        "count": 542743
+      },
+      {
+        "feature": "egfr(nonafricanamerican)_max",
+        "count": 502211
+      },
+      {
+        "feature": "egfr(aframer)_max",
+        "count": 519081
+      },
+      {
+        "feature": "eos_max",
+        "count": 312976
+      },
+      {
+        "feature": "eosinoabs_max",
+        "count": 510563
+      },
+      {
+        "feature": "epithelialcells_max",
+        "count": 560455
+      },
+      {
+        "feature": "globulin_max",
+        "count": 387564
+      },
+      {
+        "feature": "glucose_max",
+        "count": 316232
+      },
+      {
+        "feature": "glucose,meter_max",
+        "count": 480818
+      },
+      {
+        "feature": "hco3calculated,venous(poc)_max",
+        "count": 535448
+      },
+      {
+        "feature": "hematocrit_max",
+        "count": 311512
+      },
+      {
+        "feature": "hemoglobin_max",
+        "count": 311556
+      },
+      {
+        "feature": "immaturegrans(abs)_max",
+        "count": 511881
+      },
+      {
+        "feature": "immaturegranulocytes_max",
+        "count": 511867
+      },
+      {
+        "feature": "inr_max",
+        "count": 422749
+      },
+      {
+        "feature": "lactate,poc_max",
+        "count": 453325
+      },
+      {
+        "feature": "lipase_max",
+        "count": 438744
+      },
+      {
+        "feature": "lymphs_max",
+        "count": 312873
+      },
+      {
+        "feature": "magnesium_max",
+        "count": 451001
+      },
+      {
+        "feature": "mch_max",
+        "count": 310703
+      },
+      {
+        "feature": "mchc_max",
+        "count": 310702
+      },
+      {
+        "feature": "mcv_max",
+        "count": 310650
+      },
+      {
+        "feature": "monocytes_max",
+        "count": 312117
+      },
+      {
+        "feature": "monosabs_max",
+        "count": 510241
+      },
+      {
+        "feature": "mpv_max",
+        "count": 310869
+      },
+      {
+        "feature": "neutrophils_max",
+        "count": 312019
+      },
+      {
+        "feature": "nrbc_max",
+        "count": 507280
+      },
+      {
+        "feature": "nrbcabsolute_max",
+        "count": 510448
+      },
+      {
+        "feature": "o2satcalculated,venous(poc)_max",
+        "count": 535469
+      },
+      {
+        "feature": "pco2(poc)_max",
+        "count": 469538
+      },
+      {
+        "feature": "pco2,venous(poc)_max",
+        "count": 535448
+      },
+      {
+        "feature": "ph,venous(poc)_max",
+        "count": 535447
+      },
+      {
+        "feature": "phencyclidine(pcp)screen,urine,noconf._max",
+        "count": 560486
+      },
+      {
+        "feature": "phosphorus_max",
+        "count": 465476
+      },
+      {
+        "feature": "platelets_max",
+        "count": 310689
+      },
+      {
+        "feature": "po2(poc)_max",
+        "count": 469585
+      },
+      {
+        "feature": "po2,venous(poc)_max",
+        "count": 535451
+      },
+      {
+        "feature": "pocbun_max",
+        "count": 441625
+      },
+      {
+        "feature": "poccreatinine_max",
+        "count": 441540
+      },
+      {
+        "feature": "pocglucose_max",
+        "count": 417326
+      },
+      {
+        "feature": "pochematocrit_max",
+        "count": 441427
+      },
+      {
+        "feature": "pocionizedcalcium_max",
+        "count": 441462
+      },
+      {
+        "feature": "pocph_max",
+        "count": 460787
+      },
+      {
+        "feature": "pocpotassium_max",
+        "count": 441543
+      },
+      {
+        "feature": "pocsodium_max",
+        "count": 441402
+      },
+      {
+        "feature": "poctroponini._max",
+        "count": 556061
+      },
+      {
+        "feature": "potassium_max",
+        "count": 318019
+      },
+      {
+        "feature": "proteintotal_max",
+        "count": 388553
+      },
+      {
+        "feature": "prothrombintime_max",
+        "count": 422812
+      },
+      {
+        "feature": "ptt_max",
+        "count": 454341
+      },
+      {
+        "feature": "rbc_max",
+        "count": 310677
+      },
+      {
+        "feature": "rbc/hpf_max",
+        "count": 471115
+      },
+      {
+        "feature": "rdw_max",
+        "count": 310652
+      },
+      {
+        "feature": "sodium_max",
+        "count": 316091
+      },
+      {
+        "feature": "troponini(poc)_max",
+        "count": 444106
+      },
+      {
+        "feature": "troponint_max",
+        "count": 518225
+      },
+      {
+        "feature": "tsh_max",
+        "count": 514468
+      },
+      {
+        "feature": "wbc_max",
+        "count": 310641
+      },
+      {
+        "feature": "wbc/hpf_max",
+        "count": 470015
+      },
+      {
+        "feature": "absolutelymphocytecount_median",
+        "count": 314206
+      },
+      {
+        "feature": "acetonebld_median",
+        "count": 558204
+      },
+      {
+        "feature": "alanineaminotransferase(alt)_median",
+        "count": 374812
+      },
+      {
+        "feature": "albumin_median",
+        "count": 386156
+      },
+      {
+        "feature": "alkphos_median",
+        "count": 373785
+      },
+      {
+        "feature": "anc(absneutrophilcount)_median",
+        "count": 312895
+      },
+      {
+        "feature": "aniongap_median",
+        "count": 317023
+      },
+      {
+        "feature": "aspartateaminotransferase(ast)_median",
+        "count": 376695
+      },
+      {
+        "feature": "b-typenatriureticpeptide,pro(probnp)_median",
+        "count": 533301
+      },
+      {
+        "feature": "baseexcess(poc)_median",
+        "count": 469545
+      },
+      {
+        "feature": "baseexcess,venous(poc)_median",
+        "count": 535453
+      },
+      {
+        "feature": "basos_median",
+        "count": 312977
+      },
+      {
+        "feature": "basosabs_median",
+        "count": 508920
+      },
+      {
+        "feature": "benzodiazepinesscreen,urine,noconf._median",
+        "count": 560472
+      },
+      {
+        "feature": "bilirubindirect_median",
+        "count": 442221
+      },
+      {
+        "feature": "bilirubintotal_median",
+        "count": 374674
+      },
+      {
+        "feature": "bun_median",
+        "count": 316149
+      },
+      {
+        "feature": "bun/creatratio_median",
+        "count": 349609
+      },
+      {
+        "feature": "calcium_median",
+        "count": 315517
+      },
+      {
+        "feature": "calculatedco2(poc)_median",
+        "count": 460173
+      },
+      {
+        "feature": "calculatedhco3(poc)i_median",
+        "count": 475916
+      },
+      {
+        "feature": "calculatedo2saturation(poc)_median",
+        "count": 469619
+      },
+      {
+        "feature": "chloride_median",
+        "count": 316087
+      },
+      {
+        "feature": "cktotal_median",
+        "count": 520144
+      },
+      {
+        "feature": "co2_median",
+        "count": 316140
+      },
+      {
+        "feature": "co2calculated,venous(poc)_median",
+        "count": 535474
+      },
+      {
+        "feature": "co2,poc_median",
+        "count": 455094
+      },
+      {
+        "feature": "creatinine_median",
+        "count": 316142
+      },
+      {
+        "feature": "d-dimer_median",
+        "count": 533949
+      },
+      {
+        "feature": "egfr_median",
+        "count": 542743
+      },
+      {
+        "feature": "egfr(nonafricanamerican)_median",
+        "count": 502211
+      },
+      {
+        "feature": "egfr(aframer)_median",
+        "count": 519081
+      },
+      {
+        "feature": "eos_median",
+        "count": 312976
+      },
+      {
+        "feature": "eosinoabs_median",
+        "count": 510563
+      },
+      {
+        "feature": "epithelialcells_median",
+        "count": 560455
+      },
+      {
+        "feature": "globulin_median",
+        "count": 387564
+      },
+      {
+        "feature": "glucose_median",
+        "count": 316232
+      },
+      {
+        "feature": "glucose,meter_median",
+        "count": 480818
+      },
+      {
+        "feature": "hco3calculated,venous(poc)_median",
+        "count": 535448
+      },
+      {
+        "feature": "hematocrit_median",
+        "count": 311512
+      },
+      {
+        "feature": "hemoglobin_median",
+        "count": 311556
+      },
+      {
+        "feature": "immaturegrans(abs)_median",
+        "count": 511881
+      },
+      {
+        "feature": "immaturegranulocytes_median",
+        "count": 511867
+      },
+      {
+        "feature": "inr_median",
+        "count": 422749
+      },
+      {
+        "feature": "lactate,poc_median",
+        "count": 453325
+      },
+      {
+        "feature": "lipase_median",
+        "count": 438744
+      },
+      {
+        "feature": "lymphs_median",
+        "count": 312873
+      },
+      {
+        "feature": "magnesium_median",
+        "count": 451001
+      },
+      {
+        "feature": "mch_median",
+        "count": 310703
+      },
+      {
+        "feature": "mchc_median",
+        "count": 310702
+      },
+      {
+        "feature": "mcv_median",
+        "count": 310650
+      },
+      {
+        "feature": "monocytes_median",
+        "count": 312117
+      },
+      {
+        "feature": "monosabs_median",
+        "count": 510241
+      },
+      {
+        "feature": "mpv_median",
+        "count": 310869
+      },
+      {
+        "feature": "neutrophils_median",
+        "count": 312019
+      },
+      {
+        "feature": "nrbc_median",
+        "count": 507280
+      },
+      {
+        "feature": "nrbcabsolute_median",
+        "count": 510448
+      },
+      {
+        "feature": "o2satcalculated,venous(poc)_median",
+        "count": 535469
+      },
+      {
+        "feature": "pco2(poc)_median",
+        "count": 469538
+      },
+      {
+        "feature": "pco2,venous(poc)_median",
+        "count": 535448
+      },
+      {
+        "feature": "ph,venous(poc)_median",
+        "count": 535447
+      },
+      {
+        "feature": "phencyclidine(pcp)screen,urine,noconf._median",
+        "count": 560486
+      },
+      {
+        "feature": "phosphorus_median",
+        "count": 465476
+      },
+      {
+        "feature": "platelets_median",
+        "count": 310689
+      },
+      {
+        "feature": "po2(poc)_median",
+        "count": 469585
+      },
+      {
+        "feature": "po2,venous(poc)_median",
+        "count": 535451
+      },
+      {
+        "feature": "pocbun_median",
+        "count": 441625
+      },
+      {
+        "feature": "poccreatinine_median",
+        "count": 441540
+      },
+      {
+        "feature": "pocglucose_median",
+        "count": 417326
+      },
+      {
+        "feature": "pochematocrit_median",
+        "count": 441427
+      },
+      {
+        "feature": "pocionizedcalcium_median",
+        "count": 441462
+      },
+      {
+        "feature": "pocph_median",
+        "count": 460787
+      },
+      {
+        "feature": "pocpotassium_median",
+        "count": 441543
+      },
+      {
+        "feature": "pocsodium_median",
+        "count": 441402
+      },
+      {
+        "feature": "poctroponini._median",
+        "count": 556061
+      },
+      {
+        "feature": "potassium_median",
+        "count": 318019
+      },
+      {
+        "feature": "proteintotal_median",
+        "count": 388553
+      },
+      {
+        "feature": "prothrombintime_median",
+        "count": 422812
+      },
+      {
+        "feature": "ptt_median",
+        "count": 454341
+      },
+      {
+        "feature": "rbc_median",
+        "count": 310677
+      },
+      {
+        "feature": "rbc/hpf_median",
+        "count": 471115
+      },
+      {
+        "feature": "rdw_median",
+        "count": 310652
+      },
+      {
+        "feature": "sodium_median",
+        "count": 316091
+      },
+      {
+        "feature": "troponini(poc)_median",
+        "count": 444106
+      },
+      {
+        "feature": "troponint_median",
+        "count": 518225
+      },
+      {
+        "feature": "tsh_median",
+        "count": 514468
+      },
+      {
+        "feature": "wbc_median",
+        "count": 310641
+      },
+      {
+        "feature": "wbc/hpf_median",
+        "count": 470015
+      },
+      {
+        "feature": "triage_vital_hr",
+        "count": 166052
+      },
+      {
+        "feature": "triage_vital_sbp",
+        "count": 167904
+      },
+      {
+        "feature": "triage_vital_dbp",
+        "count": 168063
+      },
+      {
+        "feature": "triage_vital_rr",
+        "count": 170487
+      },
+      {
+        "feature": "triage_vital_o2",
+        "count": 271317
+      },
+      {
+        "feature": "triage_vital_o2_device",
+        "count": 226855
+      },
+      {
+        "feature": "triage_vital_temp",
+        "count": 182985
+      },
+      {
+        "feature": "pulse_last",
+        "count": 225121
+      },
+      {
+        "feature": "resp_last",
+        "count": 240014
+      },
+      {
+        "feature": "spo2_last",
+        "count": 316210
+      },
+      {
+        "feature": "temp_last",
+        "count": 306400
+      },
+      {
+        "feature": "sbp_last",
+        "count": 224272
+      },
+      {
+        "feature": "dbp_last",
+        "count": 224394
+      },
+      {
+        "feature": "o2_device_last",
+        "count": 262428
+      },
+      {
+        "feature": "pulse_min",
+        "count": 212429
+      },
+      {
+        "feature": "resp_min",
+        "count": 213271
+      },
+      {
+        "feature": "spo2_min",
+        "count": 232899
+      },
+      {
+        "feature": "temp_min",
+        "count": 214260
+      },
+      {
+        "feature": "sbp_min",
+        "count": 212611
+      },
+      {
+        "feature": "dbp_min",
+        "count": 212631
+      },
+      {
+        "feature": "o2_device_min",
+        "count": 218444
+      },
+      {
+        "feature": "pulse_max",
+        "count": 212429
+      },
+      {
+        "feature": "resp_max",
+        "count": 213271
+      },
+      {
+        "feature": "spo2_max",
+        "count": 232899
+      },
+      {
+        "feature": "temp_max",
+        "count": 214260
+      },
+      {
+        "feature": "sbp_max",
+        "count": 212611
+      },
+      {
+        "feature": "dbp_max",
+        "count": 212631
+      },
+      {
+        "feature": "o2_device_max",
+        "count": 218444
+      },
+      {
+        "feature": "pulse_median",
+        "count": 212429
+      },
+      {
+        "feature": "resp_median",
+        "count": 213271
+      },
+      {
+        "feature": "spo2_median",
+        "count": 232899
+      },
+      {
+        "feature": "temp_median",
+        "count": 214260
+      },
+      {
+        "feature": "sbp_median",
+        "count": 212611
+      },
+      {
+        "feature": "dbp_median",
+        "count": 212631
+      },
+      {
+        "feature": "o2_device_median",
+        "count": 218444
+      },
+      {
+        "feature": "cc_abdominalcramping",
+        "count": 2585
+      },
+      {
+        "feature": "cc_abdominaldistention",
+        "count": 2585
+      },
+      {
+        "feature": "cc_abdominalpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_abdominalpainpregnant",
+        "count": 2585
+      },
+      {
+        "feature": "cc_abnormallab",
+        "count": 2585
+      },
+      {
+        "feature": "cc_abscess",
+        "count": 2585
+      },
+      {
+        "feature": "cc_addictionproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_agitation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_alcoholintoxication",
+        "count": 2585
+      },
+      {
+        "feature": "cc_alcoholproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_allergicreaction",
+        "count": 2585
+      },
+      {
+        "feature": "cc_alteredmentalstatus",
+        "count": 2585
+      },
+      {
+        "feature": "cc_animalbite",
+        "count": 2585
+      },
+      {
+        "feature": "cc_ankleinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_anklepain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_anxiety",
+        "count": 2585
+      },
+      {
+        "feature": "cc_arminjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_armpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_armswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_assaultvictim",
+        "count": 2585
+      },
+      {
+        "feature": "cc_asthma",
+        "count": 2585
+      },
+      {
+        "feature": "cc_backpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_bleeding/bruising",
+        "count": 2585
+      },
+      {
+        "feature": "cc_blurredvision",
+        "count": 2585
+      },
+      {
+        "feature": "cc_bodyfluidexposure",
+        "count": 2585
+      },
+      {
+        "feature": "cc_breastpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_breathingdifficulty",
+        "count": 2585
+      },
+      {
+        "feature": "cc_breathingproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_burn",
+        "count": 2585
+      },
+      {
+        "feature": "cc_cardiacarrest",
+        "count": 2585
+      },
+      {
+        "feature": "cc_cellulitis",
+        "count": 2585
+      },
+      {
+        "feature": "cc_chestpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_chesttightness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_chills",
+        "count": 2585
+      },
+      {
+        "feature": "cc_coldlikesymptoms",
+        "count": 2585
+      },
+      {
+        "feature": "cc_confusion",
+        "count": 2585
+      },
+      {
+        "feature": "cc_conjunctivitis",
+        "count": 2585
+      },
+      {
+        "feature": "cc_constipation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_cough",
+        "count": 2585
+      },
+      {
+        "feature": "cc_cyst",
+        "count": 2585
+      },
+      {
+        "feature": "cc_decreasedbloodsugar-symptomatic",
+        "count": 2585
+      },
+      {
+        "feature": "cc_dehydration",
+        "count": 2585
+      },
+      {
+        "feature": "cc_dentalpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_depression",
+        "count": 2585
+      },
+      {
+        "feature": "cc_detoxevaluation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_diarrhea",
+        "count": 2585
+      },
+      {
+        "feature": "cc_dizziness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_drug/alcoholassessment",
+        "count": 2585
+      },
+      {
+        "feature": "cc_drugproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_dyspnea",
+        "count": 2585
+      },
+      {
+        "feature": "cc_dysuria",
+        "count": 2585
+      },
+      {
+        "feature": "cc_earpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_earproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_edema",
+        "count": 2585
+      },
+      {
+        "feature": "cc_elbowpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_elevatedbloodsugar-nosymptoms",
+        "count": 2585
+      },
+      {
+        "feature": "cc_elevatedbloodsugar-symptomatic",
+        "count": 2585
+      },
+      {
+        "feature": "cc_emesis",
+        "count": 2585
+      },
+      {
+        "feature": "cc_epigastricpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_epistaxis",
+        "count": 2585
+      },
+      {
+        "feature": "cc_exposuretostd",
+        "count": 2585
+      },
+      {
+        "feature": "cc_extremitylaceration",
+        "count": 2585
+      },
+      {
+        "feature": "cc_extremityweakness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_eyeinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_eyepain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_eyeproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_eyeredness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_facialinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_faciallaceration",
+        "count": 2585
+      },
+      {
+        "feature": "cc_facialpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_facialswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fall",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fall>65",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fatigue",
+        "count": 2585
+      },
+      {
+        "feature": "cc_femaleguproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fever",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fever-75yearsorolder",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fever-9weeksto74years",
+        "count": 2585
+      },
+      {
+        "feature": "cc_feverimmunocompromised",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fingerinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fingerpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fingerswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_flankpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_follow-upcellulitis",
+        "count": 2585
+      },
+      {
+        "feature": "cc_footinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_footpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_footswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_foreignbodyineye",
+        "count": 2585
+      },
+      {
+        "feature": "cc_fulltrauma",
+        "count": 2585
+      },
+      {
+        "feature": "cc_generalizedbodyaches",
+        "count": 2585
+      },
+      {
+        "feature": "cc_gibleeding",
+        "count": 2585
+      },
+      {
+        "feature": "cc_giproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_groinpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hallucinations",
+        "count": 2585
+      },
+      {
+        "feature": "cc_handinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_handpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_headache",
+        "count": 2585
+      },
+      {
+        "feature": "cc_headache-newonsetornewsymptoms",
+        "count": 2585
+      },
+      {
+        "feature": "cc_headache-recurrentorknowndxmigraines",
+        "count": 2585
+      },
+      {
+        "feature": "cc_headachere-evaluation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_headinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_headlaceration",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hematuria",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hemoptysis",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hippain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_homicidal",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hyperglycemia",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hypertension",
+        "count": 2585
+      },
+      {
+        "feature": "cc_hypotension",
+        "count": 2585
+      },
+      {
+        "feature": "cc_influenza",
+        "count": 2585
+      },
+      {
+        "feature": "cc_ingestion",
+        "count": 2585
+      },
+      {
+        "feature": "cc_insectbite",
+        "count": 2585
+      },
+      {
+        "feature": "cc_irregularheartbeat",
+        "count": 2585
+      },
+      {
+        "feature": "cc_jawpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_jointswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_kneeinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_kneepain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_laceration",
+        "count": 2585
+      },
+      {
+        "feature": "cc_leginjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_legpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_legswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_lethargy",
+        "count": 2585
+      },
+      {
+        "feature": "cc_lossofconsciousness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_maleguproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_mass",
+        "count": 2585
+      },
+      {
+        "feature": "cc_medicalproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_medicalscreening",
+        "count": 2585
+      },
+      {
+        "feature": "cc_medicationproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_medicationrefill",
+        "count": 2585
+      },
+      {
+        "feature": "cc_migraine",
+        "count": 2585
+      },
+      {
+        "feature": "cc_modifiedtrauma",
+        "count": 2585
+      },
+      {
+        "feature": "cc_motorcyclecrash",
+        "count": 2585
+      },
+      {
+        "feature": "cc_motorvehiclecrash",
+        "count": 2585
+      },
+      {
+        "feature": "cc_multiplefalls",
+        "count": 2585
+      },
+      {
+        "feature": "cc_nasalcongestion",
+        "count": 2585
+      },
+      {
+        "feature": "cc_nausea",
+        "count": 2585
+      },
+      {
+        "feature": "cc_nearsyncope",
+        "count": 2585
+      },
+      {
+        "feature": "cc_neckpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_neurologicproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_numbness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_oralswelling",
+        "count": 2585
+      },
+      {
+        "feature": "cc_otalgia",
+        "count": 2585
+      },
+      {
+        "feature": "cc_other",
+        "count": 2585
+      },
+      {
+        "feature": "cc_overdose-accidental",
+        "count": 2585
+      },
+      {
+        "feature": "cc_overdose-intentional",
+        "count": 2585
+      },
+      {
+        "feature": "cc_pain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_palpitations",
+        "count": 2585
+      },
+      {
+        "feature": "cc_panicattack",
+        "count": 2585
+      },
+      {
+        "feature": "cc_pelvicpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_poisoning",
+        "count": 2585
+      },
+      {
+        "feature": "cc_post-opproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_psychiatricevaluation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_psychoticsymptoms",
+        "count": 2585
+      },
+      {
+        "feature": "cc_rapidheartrate",
+        "count": 2585
+      },
+      {
+        "feature": "cc_rash",
+        "count": 2585
+      },
+      {
+        "feature": "cc_rectalbleeding",
+        "count": 2585
+      },
+      {
+        "feature": "cc_rectalpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_respiratorydistress",
+        "count": 2585
+      },
+      {
+        "feature": "cc_ribinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_ribpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_seizure-newonset",
+        "count": 2585
+      },
+      {
+        "feature": "cc_seizure-priorhxof",
+        "count": 2585
+      },
+      {
+        "feature": "cc_seizures",
+        "count": 2585
+      },
+      {
+        "feature": "cc_shortnessofbreath",
+        "count": 2585
+      },
+      {
+        "feature": "cc_shoulderinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_shoulderpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_sicklecellpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_sinusproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_skinirritation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_skinproblem",
+        "count": 2585
+      },
+      {
+        "feature": "cc_sorethroat",
+        "count": 2585
+      },
+      {
+        "feature": "cc_stdcheck",
+        "count": 2585
+      },
+      {
+        "feature": "cc_strokealert",
+        "count": 2585
+      },
+      {
+        "feature": "cc_suicidal",
+        "count": 2585
+      },
+      {
+        "feature": "cc_suture/stapleremoval",
+        "count": 2585
+      },
+      {
+        "feature": "cc_swallowedforeignbody",
+        "count": 2585
+      },
+      {
+        "feature": "cc_syncope",
+        "count": 2585
+      },
+      {
+        "feature": "cc_tachycardia",
+        "count": 2585
+      },
+      {
+        "feature": "cc_testiclepain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_thumbinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_tickremoval",
+        "count": 2585
+      },
+      {
+        "feature": "cc_toeinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_toepain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_trauma",
+        "count": 2585
+      },
+      {
+        "feature": "cc_unresponsive",
+        "count": 2585
+      },
+      {
+        "feature": "cc_uri",
+        "count": 2585
+      },
+      {
+        "feature": "cc_urinaryfrequency",
+        "count": 2585
+      },
+      {
+        "feature": "cc_urinaryretention",
+        "count": 2585
+      },
+      {
+        "feature": "cc_urinarytractinfection",
+        "count": 2585
+      },
+      {
+        "feature": "cc_vaginalbleeding",
+        "count": 2585
+      },
+      {
+        "feature": "cc_vaginaldischarge",
+        "count": 2585
+      },
+      {
+        "feature": "cc_vaginalpain",
+        "count": 2585
+      },
+      {
+        "feature": "cc_weakness",
+        "count": 2585
+      },
+      {
+        "feature": "cc_wheezing",
+        "count": 2585
+      },
+      {
+        "feature": "cc_withdrawal-alcohol",
+        "count": 2585
+      },
+      {
+        "feature": "cc_woundcheck",
+        "count": 2585
+      },
+      {
+        "feature": "cc_woundinfection",
+        "count": 2585
+      },
+      {
+        "feature": "cc_woundre-evaluation",
+        "count": 2585
+      },
+      {
+        "feature": "cc_wristinjury",
+        "count": 2585
+      },
+      {
+        "feature": "cc_wristpain",
+        "count": 2585
+      }
+    ]
+  },
+  "age_by_esi": [
+    {
+      "esi": 1.0,
+      "jumlah": 5270,
+      "rata_rata_umur": 61.61,
+      "median_umur": 63.0
+    },
+    {
+      "esi": 2.0,
+      "jumlah": 163525,
+      "rata_rata_umur": 56.55,
+      "median_umur": 56.0
+    },
+    {
+      "esi": 3.0,
+      "jumlah": 236229,
+      "rata_rata_umur": 50.35,
+      "median_umur": 49.0
+    },
+    {
+      "esi": 4.0,
+      "jumlah": 125003,
+      "rata_rata_umur": 41.91,
+      "median_umur": 39.0
+    },
+    {
+      "esi": 5.0,
+      "jumlah": 27991,
+      "rata_rata_umur": 40.44,
+      "median_umur": 37.0
+    }
+  ],
+  "gender_distribution": [
+    {
+      "gender": "Female",
+      "count": 309653
+    },
+    {
+      "gender": "Male",
+      "count": 250833
+    }
+  ],
+  "gender_by_esi": [
+    {
+      "esi": 1.0,
+      "gender": "Female",
+      "count": 2320
+    },
+    {
+      "esi": 1.0,
+      "gender": "Male",
+      "count": 2951
+    },
+    {
+      "esi": 2.0,
+      "gender": "Female",
+      "count": 79769
+    },
+    {
+      "esi": 2.0,
+      "gender": "Male",
+      "count": 83765
+    },
+    {
+      "esi": 3.0,
+      "gender": "Female",
+      "count": 143130
+    },
+    {
+      "esi": 3.0,
+      "gender": "Male",
+      "count": 93099
+    },
+    {
+      "esi": 4.0,
+      "gender": "Female",
+      "count": 67749
+    },
+    {
+      "esi": 4.0,
+      "gender": "Male",
+      "count": 57254
+    },
+    {
+      "esi": 5.0,
+      "gender": "Female",
+      "count": 15389
+    },
+    {
+      "esi": 5.0,
+      "gender": "Male",
+      "count": 12603
+    }
+  ],
+  "vital_by_esi": {
+    "HR": [
+      {
+        "esi": 1.0,
+        "jumlah": 713,
+        "mean": 96.56,
+        "min": 32.0,
+        "max": 280.0
+      },
+      {
+        "esi": 2.0,
+        "jumlah": 98376,
+        "mean": 88.77,
+        "min": 30.0,
+        "max": 244.0
+      },
+      {
+        "esi": 3.0,
+        "jumlah": 173923,
+        "mean": 85.7,
+        "min": 30.0,
+        "max": 232.0
+      },
+      {
+        "esi": 4.0,
+        "jumlah": 103358,
+        "mean": 83.12,
+        "min": 31.0,
+        "max": 191.0
+      },
+      {
+        "esi": 5.0,
+        "jumlah": 17391,
+        "mean": 80.88,
+        "min": 42.0,
+        "max": 140.0
+      }
+    ],
+    "RR": [
+      {
+        "esi": 1.0,
+        "jumlah": 652,
+        "mean": 19.76,
+        "min": 8.0,
+        "max": 68.0
+      },
+      {
+        "esi": 2.0,
+        "jumlah": 96868,
+        "mean": 17.88,
+        "min": 8.0,
+        "max": 66.0
+      },
+      {
+        "esi": 3.0,
+        "jumlah": 172188,
+        "mean": 17.62,
+        "min": 8.0,
+        "max": 69.0
+      },
+      {
+        "esi": 4.0,
+        "jumlah": 102533,
+        "mean": 17.39,
+        "min": 8.0,
+        "max": 69.0
+      },
+      {
+        "esi": 5.0,
+        "jumlah": 17116,
+        "mean": 17.35,
+        "min": 8.0,
+        "max": 69.0
+      }
+    ],
+    "Temperature": [
+      {
+        "esi": 1.0,
+        "jumlah": 455,
+        "mean": 97.72,
+        "min": 92.4,
+        "max": 106.0
+      },
+      {
+        "esi": 2.0,
+        "jumlah": 89839,
+        "mean": 98.06,
+        "min": 90.0,
+        "max": 106.0
+      },
+      {
+        "esi": 3.0,
+        "jumlah": 167736,
+        "mean": 98.12,
+        "min": 91.0,
+        "max": 105.3
+      },
+      {
+        "esi": 4.0,
+        "jumlah": 101650,
+        "mean": 98.06,
+        "min": 91.0,
+        "max": 103.7
+      },
+      {
+        "esi": 5.0,
+        "jumlah": 17193,
+        "mean": 97.98,
+        "min": 92.0,
+        "max": 104.1
+      }
+    ]
+  },
+  "duplicate_rows": null
+}

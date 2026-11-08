@@ -1,0 +1,199 @@
+{
+  "test_rows": 111626,
+  "metrics": {
+    "accuracy": 0.6484958701377815,
+    "f1": 0.6371411893194904,
+    "weightedPrecision": 0.6504028678423038,
+    "weightedRecall": 0.6484958701377814,
+    "macroPrecision": 0.6348119272694875,
+    "macroRecall": 0.4657230705261687,
+    "macroF1": 0.49161810586546884,
+    "macroAUROC_ovr": 0.8715910732556796
+  },
+  "per_class_metrics": [
+    {
+      "esi": 1,
+      "support": 1009,
+      "precision": 0.6430976430976431,
+      "recall": 0.18929633300297324,
+      "f1": 0.29249617151607965
+    },
+    {
+      "esi": 2,
+      "support": 32817,
+      "precision": 0.7201666607314554,
+      "recall": 0.6162354877045434,
+      "f1": 0.6641597425202799
+    },
+    {
+      "esi": 3,
+      "support": 47103,
+      "precision": 0.6354722206628118,
+      "recall": 0.7209519563509755,
+      "f1": 0.675518688707207
+    },
+    {
+      "esi": 4,
+      "support": 24996,
+      "precision": 0.6056548654100299,
+      "recall": 0.6967114738358138,
+      "f1": 0.648
+    },
+    {
+      "esi": 5,
+      "support": 5701,
+      "precision": 0.5696682464454976,
+      "recall": 0.10542010173653744,
+      "f1": 0.17791592658377736
+    }
+  ],
+  "per_class_auroc_ovr": [
+    {
+      "esi": 1,
+      "auc_roc": 0.9273303290535798
+    },
+    {
+      "esi": 2,
+      "auc_roc": 0.8657037175814928
+    },
+    {
+      "esi": 3,
+      "auc_roc": 0.7928043148331353
+    },
+    {
+      "esi": 4,
+      "auc_roc": 0.8882830882399805
+    },
+    {
+      "esi": 5,
+      "auc_roc": 0.8838339165702104
+    }
+  ],
+  "confusion_matrix": [
+    {
+      "actual": 1,
+      "predicted": 1,
+      "count": 191
+    },
+    {
+      "actual": 1,
+      "predicted": 2,
+      "count": 596
+    },
+    {
+      "actual": 1,
+      "predicted": 3,
+      "count": 163
+    },
+    {
+      "actual": 1,
+      "predicted": 4,
+      "count": 59
+    },
+    {
+      "actual": 2,
+      "predicted": 1,
+      "count": 101
+    },
+    {
+      "actual": 2,
+      "predicted": 2,
+      "count": 20223
+    },
+    {
+      "actual": 2,
+      "predicted": 3,
+      "count": 11204
+    },
+    {
+      "actual": 2,
+      "predicted": 4,
+      "count": 1280
+    },
+    {
+      "actual": 2,
+      "predicted": 5,
+      "count": 9
+    },
+    {
+      "actual": 3,
+      "predicted": 1,
+      "count": 4
+    },
+    {
+      "actual": 3,
+      "predicted": 2,
+      "count": 6690
+    },
+    {
+      "actual": 3,
+      "predicted": 3,
+      "count": 33959
+    },
+    {
+      "actual": 3,
+      "predicted": 4,
+      "count": 6391
+    },
+    {
+      "actual": 3,
+      "predicted": 5,
+      "count": 59
+    },
+    {
+      "actual": 4,
+      "predicted": 1,
+      "count": 1
+    },
+    {
+      "actual": 4,
+      "predicted": 2,
+      "count": 490
+    },
+    {
+      "actual": 4,
+      "predicted": 3,
+      "count": 6704
+    },
+    {
+      "actual": 4,
+      "predicted": 4,
+      "count": 17415
+    },
+    {
+      "actual": 4,
+      "predicted": 5,
+      "count": 386
+    },
+    {
+      "actual": 5,
+      "predicted": 2,
+      "count": 82
+    },
+    {
+      "actual": 5,
+      "predicted": 3,
+      "count": 1409
+    },
+    {
+      "actual": 5,
+      "predicted": 4,
+      "count": 3609
+    },
+    {
+      "actual": 5,
+      "predicted": 5,
+      "count": 601
+    }
+  ],
+  "label_mapping": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5
+  },
+  "model_type": "Spark PipelineModel",
+  "test_file": "data\\test.csv",
+  "model_dir": "models\\logistic_regression"
+}

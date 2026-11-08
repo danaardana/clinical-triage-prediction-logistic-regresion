@@ -1,0 +1,12 @@
+*.pdf
+*.pptx
+*.ppt
+*.doc
+*.docx
+*.RData
+*.rdata
+*.parquet 
+models/
+discarded.csv
+test.csv
+train.csv
